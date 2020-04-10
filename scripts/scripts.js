@@ -21,7 +21,7 @@ function rest() {
     document.querySelector("#" + 'second' + " h2").innerHTML = secondWind;
     document.querySelector("#" + 'action' + " h2").innerHTML = actionSurge;
 
-    var buttonList = document.querySelectorAll('.card-body button');
+    var buttonList = document.querySelectorAll('button');
     for (i=0; i < buttonList.length; i++) {
         buttonList[i].removeAttribute('disabled');
         buttonList[i].className = "btn btn-info";
